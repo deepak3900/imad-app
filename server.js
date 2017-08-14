@@ -12,11 +12,6 @@ app.get('/', function (req, res) {
 app.get('article1',fuction(req,res));
  { res.send('Article 1 is requested')}
  
- app.get('article2',fuction(req,res));
- { res.send('Article 2 is requested')}
- 
- app.get('article3',fuction(req,res));
- { res.send('Article 3 is requested')}
  
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
